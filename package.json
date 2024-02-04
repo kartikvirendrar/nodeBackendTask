@@ -1,0 +1,32 @@
+{
+  "name": "backendtask",
+  "version": "1.0.0",
+  "description": "openInApp backendTask",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikvirendrar/backendTask.git"
+  },
+  "author": "KVR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikvirendrar/backendTask/issues"
+  },
+  "homepage": "https://github.com/kartikvirendrar/backendTask#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.0.3",
+    "twilio": "^4.21.0"
+  }
+}
